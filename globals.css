@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-stokvel-blue: #2563eb;
+  --color-stokvel-dark: #020617;
+}
+
+:root {
+  background: #f8fafc;
+}
+
+/* Smooth transitions for the whole app */
+* {
+  transition-property: color, background-color, border-color, outline-color, decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
